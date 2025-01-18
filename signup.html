@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DAFTAR ANYING</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+          <a href="agents.html">KARAKTER</a>
+          <a href="specs.html">SPESIFIKASI</a>
+          <a href="signup.html">DAFTAR COYY</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="signupWrapper">
+      <div class="accountIntro">
+        <h1>BUAT AKUN LU</h1>
+      </div>
+      <div class="formBlock">
+        <form action="signup.php">
+          <div class="emailIntro">
+            <h1>APA EMAIL MU AJG?</h1>
+          </div>
+
+          <div class="email">
+            <label for="email"></label>
+            <input type="text" id="email" placeholder="EMAIL" />
+          </div>
+
+          <div class="newsletter">
+            <input type="checkbox" id="newsletter" />
+            <label for="newsletter"
+              >INGET YA INI PERCOBAAN DOANG</label
+            >
+          </div>
+
+          <div class="ageIntro">
+            <h1>KAPAN LU DI DOWNLOAD?</h1>
+            <p>KITA LIAT LU DI DOWNLOAD NYA KAPAN.</p>
+          </div>
+
+          <div class="age">
+            <label for="dayOfBirth">Hari</label>
+            <select name="dayOfBirth" id="dayOfBirth">
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+            </select>
+
+            <label for="monthOfBirth">Bulan</label>
+            <select name="monthOfBirth" id="monthOfBirth">
+              <option value="january">01</option>
+              <option value="february">02</option>
+              <option value="march">03</option>
+              <option value="april">04</option>
+              <option value="may">05</option>
+            </select>
+
+            <label for="yearOfBirth">Tahun</label>
+            <select name="yearOfBirth" id="yearOfBirth">
+              <option value="1995">1995</option>
+              <option value="1996">1996</option>
+              <option value="1997">1997</option>
+              <option value="1998">1998</option>
+              <option value="1999">1999</option>
+            </select>
+          </div>
+
+          <div class="usernameIntro">
+            <h1>ISI NAMA LU BGST</h1>
+            <p>INI BUAT LOGIN LU DI GAME!.</p>
+          </div>
+
+          <div class="username">
+            <label for="username"></label>
+            <input type="text" id="username" placeholder="USERNAME" />
+          </div>
+
+          <div class="passwordIntro">
+            <h1>PASSWORD LU ANAK HARAM</h1>
+            <p>BUAT YANG RUMIT KONTOL BIAR GA DI HACK.</p>
+          </div>
+
+          <div class="password">
+            <label for="password"></label>
+            <input type="password" id="password" placeholder="PASSWORD" />
+          </div>
+
+          <div class="passwordCheck">
+            <label for="passwordCheck"></label>
+            <input
+              type="password"
+              id="passwordCheck"
+              placeholder="CONFIRM PASSWORD"
+            />
+          </div>
+
+          <div class="submit">
+            <input type="submit" value="DAFTARR!" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p>
+        &copy; BUATAN AINK
+      </p>
+    </footer>
+  </body>
+</html>
